@@ -12,5 +12,4 @@ function MessagesLoadingSkeleton() {
     </div>
   );
 }
-
 export default MessagesLoadingSkeleton;
