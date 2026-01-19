@@ -6,6 +6,7 @@ import NoChatsFound from "./NoChatsFound";
 import { useAuthStore } from "../store/useAuthStore";
 import ListEndHint from "./ListEndHint";
 
+
 function ChatsList() {
   const { getMyChatPartners, chats, isUsersLoading, setSelectedUser } =
     useChatStore();

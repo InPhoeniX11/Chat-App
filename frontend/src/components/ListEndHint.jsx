@@ -10,5 +10,4 @@ const ListEndHint = () => {
     </div>
   );
 };
-
 export default ListEndHint;

@@ -18,4 +18,5 @@ function UsersLoadingSkeleton() {
     </div>
   );
 }
+
 export default UsersLoadingSkeleton;

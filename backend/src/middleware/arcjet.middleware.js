@@ -18,6 +18,7 @@ export const arcjetProtection = async (req, res, next) => {
         });
       }
     }
+    
 
     // check for spoofed bots(bots that act like humans)
     if (decision.results.some(isSpoofedBot)) {

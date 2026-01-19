@@ -24,6 +24,7 @@ if (ENV.NODE_ENV === "production") {
 
 export { resendClient };
 
+
 export const sender = {
   email: ENV.EMAIL_FROM || "no-reply@example.com",
   name: ENV.EMAIL_FROM_NAME || "App",
