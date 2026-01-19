@@ -16,6 +16,7 @@ export const getAllContacts = async (req, res) => {
   }
 };
 
+
 export const getMessages = async (req, res) => {
   try {
     const myId = req.user._id;
