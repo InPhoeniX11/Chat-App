@@ -8,6 +8,7 @@ import {
 import { useAuthStore } from "../store/useAuthStore";
 import { useChatStore } from "../store/useChatStore";
 
+
 const mouseClickSound =
   typeof Audio !== "undefined" ? new Audio("/sounds/mouse-click.mp3") : null;
 
